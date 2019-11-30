@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  color: deeppink;
+  font-size: 500%;
+  margin-block-start: 1em;
+  margin-block-end: 0.3em;
+}
+ 
+.navSpan {
+  display: inline-block;
+  width: 6%;
+  margin-block-end: 1em;
+  color: darkmagenta;
+  font-size: 1em;
+  background-color: burlywood;
+  margin-left: 0.3%;
+}
+
+.active{
+  background-color:rgb(233,104,107);
+}
+
+.navInputTag{
+  color: rgb(255, 0, 255);
+  font-size: 1em;
+  text-align: center;
+  font-style: italic;
+  width: 20%;
+  border: 1px solid rgb(182, 181, 181);
+  opacity:0.8;
+}
+
+.liInput {
+  color: rgb(255, 0, 255);
+  font-size: 1em;
+  text-align: center;
+  width: 82%;
+  border: 1px solid rgb(182, 181, 181);
+  opacity:0.8;
+  margin-bottom: 2%
+}
+input[type="checkbox"] {
+  width: 4%;
+  opacity:0.8;
+  margin: 0%;
+}
+
+ol {
+  width: 30%;
+  margin: 1em auto;
+  padding-left: 3%;
+}
+
+.itemLi {
+  text-indent:-2%
+}
+
+.delButton{
+  width: 7%;
+  border: 0ch;
+  background-color: coral;
+  height: 16px;
+  font-size: 10%;
+  padding: 0%;
+  margin-bottom: 2%;
+}
+

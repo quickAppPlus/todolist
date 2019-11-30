@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>菜鸟教程(runoob.com)</title>
+  </head>
+  <body>
+    <p id="demo">单击按钮来改变这一段中的文本。</p>
+    <button onclick="myFunction()">点我</button>
+    <script>
+      function myFunction() {
+        console.log(document.getElementById("demo").textContent);
+        document.getElementById("demo").innerHTML = "Hello World";
+      }
+    </script>
+  </body>
+</html>

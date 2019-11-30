@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8" />
+  <title>播放</title>
+</head>
+<body>
+  <h1 id="id"><%= id %></h1>
+  <div id="example-1">
+    <video width="320" height="240" controls>
+      <source
+        v-bind:src="'http://localhost:9090/api/' + id + '.mp4'"
+        type="video/mp4"
+      />
+      您的浏览器不支持 HTML5 video 标签。
+    </video>
+  </div>
+</body>
+<script>
+  const id = parseInt(document.getElementById("id").textContent);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+<script>
+  var example1 = new Vue({
+    el: "#example-1",
+    data: {
+      id: id
+    }
+  });
+</script>
